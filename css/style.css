@@ -1,249 +1,221 @@
-html{
-    scroll-behavior: smooth;
-}
-/*font-family: 'Fira Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Satisfy', cursive; */
-
-.navbar{
-    background-color:rgb(248, 205, 205);
-    padding: 1rem  5rem;
+html {
+  scroll-behavior: smooth;
 }
 
-
-.navbar-brand{
-    padding: 0 2rem 0 3rem;
-    color: rgb(36, 4, 78);
-    font-family: 'Roboto',cursive;
-    font-weight: bold;
+.navbar {
+  background-color: rgb(248, 205, 205);
+  padding: 1rem 5rem;
 }
 
-#navbarNav > ul > li:nth-child(n) > a{
-    color: rgb(20, 19, 19);
-    font-size: 1rem;
-    padding: 0 0.8rem;
-    font-family: 'Roboto',cursive;
-    font-style: normal;
-    font-weight: bold;
-}
-#navbarNav > ul > li:nth-child(n) > a:hover{
-    
-    color: rgb(202, 128, 17);
-    /*-webkit-text-fill-color: transparent;*/
-    background-clip: text;
-}
-.main .site-banner{
-    /*background: url(../img/bg3.jpg);*/
-    background-image: linear-gradient(rgb(248, 205, 205), rgb(223, 223, 197), rgb(169, 243, 169));
-    height: 450px; 
-    background-position: center;
-    background-size: cover;
-}
-.main .site-banner{
-    padding-left: 10%;
-    padding-right: 0%;
-}
-.main .site-banner h1{
-    font-family: 'Roboto',cursive;
-    font-style: normal;
-    font-weight: bold;
-    
+.navbar-brand {
+  padding: 0 2rem 0 3rem;
+  color: rgb(36, 4, 78);
+  font-family: "Roboto", cursive;
+  font-weight: bold;
 }
 
-.main .site-banner h3{
-    padding-top: 30%;
-    font-weight: 500;
-    font-family: 'Roboto',cursive;
-    font-style: normal;
-    font-weight: bold;
+#navbarNav > ul > li:nth-child(n) > a {
+  color: rgb(20, 19, 19);
+  font-size: 1rem;
+  padding: 0 0.8rem;
+  font-family: "Roboto", cursive;
+  font-style: normal;
+  font-weight: bold;
+}
+#navbarNav > ul > li:nth-child(n) > a:hover {
+  color: rgb(202, 128, 17);
+
+  background-clip: text;
+}
+.main .site-banner {
+  background-image: linear-gradient(
+    rgb(248, 205, 205),
+    rgb(223, 223, 197),
+    rgb(169, 243, 169)
+  );
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+.main .site-banner {
+  padding-left: 10%;
+  padding-right: 0%;
+}
+.main .site-banner h1 {
+  font-family: "Roboto", cursive;
+  font-style: normal;
+  font-weight: bold;
 }
 
-.main .site-banner h3::after{
-    content: " ";
-    height: 2px;
-    width: 10vw;
-    background: black;
-    display: inline-block;
-    margin-left: 5%;
-    transform: translate(-10px);
-
-}
-.main .site-banner h4{
-    font-family: 'Roboto-Light',cursive;
-    font-style: italic;
-    font-weight: bold;
-    padding-bottom: 1rem;
-    
-}
-.main .site-banner .banner-img>img{
-    padding: 9rem 0 7rem 0;
-    width: 15rem;
-  
+.main .site-banner h3 {
+  padding-top: 30%;
+  font-weight: 500;
+  font-family: "Roboto", cursive;
+  font-style: normal;
+  font-weight: bold;
 }
 
-.about{
-    background-image: linear-gradient( rgb(205, 240, 205) , rgb(223, 223, 197),rgb(248, 205, 205));
-    /*height: 600px; */
-    background-position: center;
-    background-size: cover;
-    padding: 8rem 5rem;
-    
+.main .site-banner h3::after {
+  content: " ";
+  height: 2px;
+  width: 10vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translate(-10px);
 }
-.about .about-title h2{
-    font-family: 'Satisfy', cursive;
-    font-weight: bold;
-    display: block;
-    letter-spacing: 21px;
+.main .site-banner h4 {
+  font-family: "Roboto-Light", cursive;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
-.about .paragraph{
-    font-family: 'Open Sans', sans-serif;
-    
+.main .site-banner .banner-img > img {
+  padding: 9rem 0 7rem 0;
+  width: 15rem;
+}
+
+.about {
+  background-image: linear-gradient(
+    rgb(205, 240, 205),
+    rgb(223, 223, 197),
+    rgb(248, 205, 205)
+  );
+
+  background-position: center;
+  background-size: cover;
+  padding: 8rem 5rem;
+}
+.about .about-title h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: bold;
+  display: block;
+  letter-spacing: 21px;
+}
+.about .paragraph {
+  font-family: "Open Sans", sans-serif;
 }
 /*Educational Background*/
 
-.edu .row .bgpic img{
-
-    opacity: 0.3rem;
-    width: 150%;
-    height: 600px;
-    border-radius: 0.2em;
+.edu .row .bgpic img {
+  opacity: 0.3rem;
+  width: 150%;
+  height: 600px;
+  border-radius: 0.2em;
 }
-.edu{
-    padding: 20vmin 0;
-    background-image: linear-gradient( rgb(198, 235, 113) , rgb(223, 223, 197),rgb(156, 205, 245));
-}
-
-  .edu .row .col-md-6 .panel {
-
-    position: relative;
-    top: 7vmin;
-    left: -19vmin;
-    background: rgb(243, 239, 239);
-    background-image: linear-gradient( rgb(198, 235, 113) , rgb(223, 223, 197),rgb(156, 205, 245));
-    width: 130%;
-    border-radius: 3px;
-    text-align: left;
-    padding: 13vmin 5vmin 13vmin 10vmin;
-    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-
-  }
-  .edu .row .col-md-6 .panel h1 {
-    font-weight: bold;
-    font-family: 'Satisfy', cursive;
-    padding: 0.4em 0;
-    font-size: 4em;
-  }
-  
-  .edu .row .panel .varsity{
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: bold;
-}
-.edu .row .panel .college{
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: bold;
+.edu {
+  padding: 20vmin 0;
+  background-image: linear-gradient(
+    rgb(198, 235, 113),
+    rgb(223, 223, 197),
+    rgb(156, 205, 245)
+  );
 }
 
-.sk{
-    
-    background-image: url(../img/bg1.jpg);
-    background-size: cover; /* or contain depending on what you want */
-    background-position: center center;
-    background-repeat: no-repeat;
-    height: 600px;
-    
- 
-   
+.edu .row .col-md-6 .panel {
+  position: relative;
+  top: 7vmin;
+  left: -19vmin;
+  background: rgb(243, 239, 239);
+  background-image: linear-gradient(
+    rgb(198, 235, 113),
+    rgb(223, 223, 197),
+    rgb(156, 205, 245)
+  );
+  width: 130%;
+  border-radius: 3px;
+  text-align: left;
+  padding: 13vmin 5vmin 13vmin 10vmin;
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
-.skill{
-    width: 600px;
-    margin: 0px auto;
-    list-style: none;
-    
-    
-}
-.skill h1{
-    font-weight: bold;
-    font-family: 'Satisfy', cursive;
-    padding: 0.4em 0;
-    font-size: 4em;
-    
-}
-/*
-.skill li{
-    margin: 30px 0;
-}
-.skill .bar{
-    background: #f72585;
-    display: block;
-    height: 10px;
-    border: 1px;
-    border-radius: 1px;
-    overflow: hidden;   
-}
-.skill .bar span{
-    height: 10px;
-    float: left;
-    background: #4895ef;
-}
-.skill .html{
-    width: 80%;
-}
-.skill .css{
-    width: 50%;
-}
-.skill .js{
-    width: 15%;
-}
-.skill .bts{
-    width: 60%;
-}
-*/
-.projects{
-    background-image: linear-gradient( rgb(198, 235, 113) , rgb(223, 223, 197),rgb(156, 205, 245));
-}
-.projects h1{
-    font-weight: bold;
-    font-family: 'Satisfy', cursive;
-    padding: 0.4em 0;
-    font-size: 4em;
-}
-.projects h3{
-    font-weight: bold;
-    font-family: 'Satisfy', cursive;
-
-}
-.contact{
-    background-image: linear-gradient( rgb(198, 235, 113) , rgb(223, 223, 197),rgb(53, 238, 198));
-}
-.contact  h2{
-    font-weight: bold;
-    font-family: 'Satisfy', cursive;
-    padding: 4rem;
-
-}
-.contact .row h4{
-    font-weight: bold;
-    font-family: 'Satisfy', cursive;
-   
-
-}
-.contact .row a{
-    color: rgb(117, 40, 10);
-    text-decoration: none;
-}
-.contact .row p{
-    color: rgb(117, 40, 10);
-}
-.contact .social h3{
-    font-weight: bold;
-    font-family: 'Satisfy', cursive;
-
+.edu .row .col-md-6 .panel h1 {
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  padding: 0.4em 0;
+  font-size: 4em;
 }
 
+.edu .row .panel .varsity {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.edu .row .panel .college {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
 
+.sk {
+  background-image: url(../img/bg1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.skill {
+  width: 600px;
+  margin: 0px auto;
+  list-style: none;
+}
+.skill h1 {
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  padding: 0.4em 0;
+  font-size: 4em;
+}
 
-
-  
- 
+.projects {
+  background-image: linear-gradient(
+    rgb(198, 235, 113),
+    rgb(223, 223, 197),
+    rgb(156, 205, 245)
+  );
+}
+.projects h1 {
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  padding: 0.4em 0;
+  font-size: 4em;
+}
+.projects h3 {
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+}
+.contact {
+  background-image: linear-gradient(
+    rgb(198, 235, 113),
+    rgb(223, 223, 197),
+    rgb(53, 238, 198)
+  );
+}
+.contact h2 {
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+  padding: 4rem;
+}
+.contact .row h4 {
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+}
+.contact .row a {
+  color: rgb(117, 40, 10);
+  text-decoration: none;
+}
+.contact .row p {
+  color: rgb(117, 40, 10);
+}
+.contact .social h3 {
+  font-weight: bold;
+  font-family: "Satisfy", cursive;
+}
+.card-img-top {
+  height: 100px;
+  width: 20px;
+}
+.card1 {
+  width: 66%;
+  height: 250px;
+  margin-right: 10px;
+  background: #8c8;
+  /*counter-increment: card1;*/
+}
